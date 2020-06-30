@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
 
 import urllib.request, urllib.parse, urllib.error
 from bs4 import BeautifulSoup
@@ -24,16 +22,3 @@ soup = BeautifulSoup(html, 'html.parser')
 tags = soup(input("Which tag do you want to retrieve? :"))
 for tag in tags:
     print(tag)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
